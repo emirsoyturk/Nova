@@ -19,6 +19,7 @@ use once_cell::sync::OnceCell;
 
 use rayon::prelude::*;
 use serde::{Deserialize, Serialize};
+use icicle_core::msm::msm;
 
 /// Public parameters for a given R1CS
 #[derive(Clone, Serialize, Deserialize)]
